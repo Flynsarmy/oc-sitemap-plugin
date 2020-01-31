@@ -1,16 +1,17 @@
-<?php namespace Flynsarmy\Sitemap\Components;
+<?php
+
+namespace Flynsarmy\Sitemap\Components;
 
 use Cms\Classes\ComponentBase;
 use Flynsarmy\Sitemap\Classes\Generator;
 
 class Sitemap extends ComponentBase
 {
-
     public function componentDetails()
     {
         return [
             'name'        => 'Sitemap',
-            'description' => 'Displays your sitemap'
+            'description' => 'Displays your sitemap',
         ];
     }
 
